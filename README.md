@@ -14,7 +14,6 @@ git commit -m "Pushing all files to git";
 git branch -M main
 git remote add origin https://github.com/pachchek/jhale-computational-workflows-homework.git
 git push -u origin main
-## I copy/past manually the README
 ```
 ## Dockerfile
 
@@ -32,7 +31,12 @@ RUN apt-get -y update && \
 2. `git add` and `git push` the file `Dockerfile` to the repository.
 
 ```
-docker build .
+touch Dockerfile
+git add --all
+git commit -m "Pushing all files to git";
+
+git push -u origin main
+
 
 
 ```
