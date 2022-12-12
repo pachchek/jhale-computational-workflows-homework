@@ -33,11 +33,9 @@ RUN apt-get -y update && \
 ```
 touch Dockerfile
 git add --all
-git commit -m "Pushing all files to git";
-
+git commit -m "Pushing all files to git"
+git branch -M main
 git push -u origin main
-
-
 
 ```
 
