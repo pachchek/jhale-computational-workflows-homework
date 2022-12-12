@@ -46,7 +46,8 @@ git push -u origin main
    `<yourdockerhubusername>/computational-workflows`.
 
 ```
-# Add your commands here
+docker build .
+
 ```
 
 ## Run a container, and share in files from the host.
