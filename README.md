@@ -50,10 +50,9 @@ git push -u origin main
 docker build .
 docker images
 docker tag a524d699d2e6 pachchek/computational-workflows
+git add --all
 git commit -m "Pushing all files to git"
 git push -u origin main
-
-test
 
 ```
 
