@@ -11,4 +11,4 @@ jobs:
 
       - name: Run test
         run: |
-          py.test-3
+          py.test
