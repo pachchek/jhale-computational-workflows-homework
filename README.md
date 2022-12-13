@@ -48,8 +48,12 @@ git push -u origin main
 
 ```
 docker build .
-docker run -ti python:3.8 python
-
+docker images
+docker tag a524d699d2e6 pachchek/computational-workflows
+git add --all
+git commit -m "Pushing all files to git"
+git branch -M main
+git push -u origin main
 
 ```
 
