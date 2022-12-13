@@ -63,7 +63,8 @@ git push -u origin main
    an interactive prompt inside the running container.
 
 ```
-# Add your commands here
+docker run -ti -v $(pwd):/root/shared pachchek/computational-workflows bash
+
 ```
 
 ## Setup a simple Python test suite
