@@ -75,7 +75,12 @@ docker run -ti -v $(pwd):/root/shared pachchek/computational-workflows bash
    repository.  ``git add``, ``git commit`` and ``git push`` them.
 
 ```
-# Add your commands here
+cp ../computational-workflows-homework-master/wallet.py .
+cp ../computational-workflows-homework-master/test_wallet.py .
+git add --all
+git commit -m "Pushing all files to git"
+git push -u origin main
+
 ```
 
 2. Start a Docker container using your image and share your repository into a
