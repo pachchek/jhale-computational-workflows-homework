@@ -87,7 +87,8 @@ git push -u origin main
    directory `/root/shared` into the container.
 
 ```
-# Add your commands here
+docker run -ti -v $(pwd):/root/shared pachchek/computational-workflows bash
+cd /root/shared
 ```
 
 3. Run the tests inside the container by going to `/root/shared` and running the
