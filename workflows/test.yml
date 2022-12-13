@@ -3,7 +3,7 @@ on: [push]
 jobs:
   tests:
     runs-on: ubuntu
-    container: pachchek/computational-workflows:latest
+    container: pachchek/jhale-computational-workflows-homework:latest
 
     steps:
       - name: Checkout code
