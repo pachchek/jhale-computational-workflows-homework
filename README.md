@@ -20,7 +20,7 @@ git push -u origin main
 1. Create a file `Dockerfile` in the repository containing the following text.
 
 ```
-FROM ubuntu:21.04
+FROM ubuntu
 
 RUN sudo apt update && \
     apt-get -y update && \
@@ -48,6 +48,8 @@ git push -u origin main
 
 ```
 docker build .
+docker run -ti python:3.8 python
+
 
 ```
 
